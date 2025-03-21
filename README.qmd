@@ -1,0 +1,59 @@
+---
+format: gfm
+---
+
+<!-- README.md is generated from README.qmd. Please edit that file -->
+
+# Calendar-based exploratory time series analysis
+<!-- Doesn't have enough stats, be more declarative // on-the-nose.. Improving viz of time series with... -->
+
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Slides and notes for a presentation about ggtime at ISF 2025 (XX July 2025).
+
+<!-- A recording of this presentation is available on YouTube here: <https://www.youtube.com/watch?v=> -->
+
+<!-- [![](preview.jpg)](https://www.youtube.com/watch?v=) -->
+
+#### Abstract
+
+<!--
+
+> Linking 'statistical graphics' to modelling and communicating temporal patterns
+Effective use of statistical graphics in exploratory time series analysis helps to uncover temporal patterns needed to accurately specify models.
+
+> Visual idioms -> temporal grammar
+While several commonly used plots exist for visualizing time series, little work has been done to formalize them within a unified grammar of temporal graphics.
+
+> Grammar elements
+Decomposing traditional time series graphics such as time plots and seasonal plots into modular grammatical elements provides the flexibility needed to clearly visualize multiple seasonality, cycles, and other complex patterns.
+
+> Calendrical patterns are central to the temporal grammar
+Temporal data visualization requires special handling to highlight patterns shaped by calendar systems, much like the nuances of spatial, graph, and uncertainty visualization.
+
+> Specific examples from the grammar
+The proposed grammar incorporates calendrical concepts to visually align time points at different granularities and timezones, warp time to standardize irregular cyclical durations, and wrap time into hierarchical calendar layouts.
+
+> Introduce the ggtime package implementation for ggplot2
+In this talk, I will introduce the grammar of temporal graphics as implemented in the ggtime R package, and demonstrate how these grammatical elements can be combined to create both familiar and novel visualizations of complex time series patterns.
+
+-->
+
+
+Effective use of exploratory data analysis for time series helps to identify temporal patterns and accurately specify forecasting models. Exploratory time series analysis describes the process of manipulating and visualizing time series to reveal patterns, structures, and other characteristics. This process often involves summarizing data across calendar-based descriptions of points in time at different granularities, such as time within days, weeks, or years. While several commonly used plots exist for visualizing time series, little work has been done to formalize them into a unified grammar of temporal graphics. Composable grammatical elements provide the flexibility needed to easily visualize multiple seasonality, cycles, and other complex temporal patterns. These modular elements can be combined to create familiar time series graphics, and remixed to create new informative plots.
+
+In this talk, I will demonstrate how the composable time-series manipulation and visualization tools in the mixtime and ggtime R packages can be combined to explore a wide variety of temporal patterns. The mixtime package allows manipulation and analysis across multiple temporal granularities and calendar systems. This enables time-specific operations including temporal aggregation, comparison of time points from different granularities or calendars, and joining time series datasets. The ggtime package extends the ggplot2 ecosystem with new grammar elements and plot helpers for visualizing time series data. These additions leverage calendar structures to visually align time points across different granularities and time zones, warp time to standardize irregular durations, and wrap time into compact calendar layouts. These tools provide a highly flexible system for exploring the complex temporal dynamics in modern time series datasets.
+
+#### Structure
+
+* Introduction
+* Common time series plots
+* A grammar of temporal graphics
+* Re-expressing common time series plots
+* Remixing elements to create new time series plots
+
+### Format
+
+* 15 minutes (+-questions?)
