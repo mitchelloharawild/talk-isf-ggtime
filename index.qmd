@@ -1028,7 +1028,7 @@ The scales also control calendrical alignment for:
 :::
 ::: {.column width="60%"}
 
-### Timezone alignment (local/absolute time)
+### Timezone alignment (absolute&nbsp;/&nbsp;local time)
 
 ```{r}
 pedestrian |> 
@@ -1057,7 +1057,7 @@ Daylight savings time misaligns daily seasonal patterns.
 :::
 ::: {.column width="60%"}
 
-### Timezone alignment (local/absolute time)
+### Timezone alignment (absolute&nbsp;/&nbsp;local time)
 
 ```{r}
 pedestrian |> 
