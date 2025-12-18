@@ -10,7 +10,7 @@
 
 <!-- badges: end -->
 
-Slides and notes for a presentation about ggtime at ISF 2025 (XX July
+Slides and notes for a presentation about ggtime at ISF 2025 (30 June
 2025).
 
 <!-- A recording of this presentation is available on YouTube here: <https://www.youtube.com/watch?v=> -->
@@ -65,8 +65,16 @@ complex temporal dynamics in modern time series datasets.
 
 #### Structure
 
-- Introduction
+- Introduction / Background
+  - Motivation
+  - Tools for exploratory analysis
 - Common time series plots
+  - Time plots
+  - Season plots
+  - Sub-series plots
+- Vector based designs
+  - distributional / ggdist (fable)
+  - mixtime / ggtime (temporal reconciliation)
 - A grammar of temporal graphics
 - Re-expressing common time series plots
 - Remixing elements to create new time series plots
